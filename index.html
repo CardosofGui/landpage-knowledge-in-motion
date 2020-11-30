@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge In Motion</title>
+    <link rel="sortcut icon" href="img/knowledge_in_motion.png" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <header class="bg-header">
+        <div class="center">
+            <div class="content-header"><div class="logo"></div></div><!--content-header-->
+            <div class="content-header menu">
+                <li><a href="#">Assinatura</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#"  Onclick="exibirMenu()">Categorias</a>
+                <ul id="submenu1">
+                    <li><a href="#" Onclick="exibirSubMenu1()">Estudos</a><ul id="submenu2">
+                        <li><a href="#" style="font-weight: normal;">Ensino Fundamental</a></li>
+                        <li><a href="#" style="font-weight: normal;">Ensino Médio</a></li>
+                        <li><a href="#" style="font-weight: normal;">Ensino Superior</a></li>
+                    </ul></li>
+                    <li><a href="#" Onclick="exibirSubMenu2()">Concursos</a><ul id="submenu3">
+                        <li><a href="#" style="font-weight: normal;">Apostilas</a></li>
+                        <li><a href="#" style="font-weight: normal;">Simulados</a></li>
+                        <li><a href="#" style="font-weight: normal;">Provas/Gabaritos</a></li>
+                    </ul></li>
+                </ul></li>
+                <li class="login">Entrar / Cadastrar</li>
+            </div><!--content-header-->
+        </div><!--center-->
+        <div class="header-desc">
+            <h2>Knowledge In Motion</h2>
+            <p>Estude onde preferir!</p>
+            <p>Professores preparados para te orientar a qualquer momento!</p>
+            <p></p>
+        </div><!--header-desc-->
+    </header><!--header-->
+
+    <section id="section-sobre-nos">
+        <div class="chamada-sobre-nos">
+            <div class="center">
+                <div class="img-seta"></div>
+                <h2>CONHEÇA NOSSO CONTEÚDO</h2>
+            </div><!--center-->
+        </div><!--chamada-sobre-nos-->
+        <div class="center">
+            <div class="wrapper-sobre-nos">
+                <div class="img tipo-1" style="background-image: url(img/aluno.jpg);"></div>
+                <div class="sobre-nos-text tipo-2">Como o próprio nome do aplicativo já fala, a ideia é obter conhecimento aonde quer que se esteja, então nos pacotes premium está inclusa a Opção offline, você pode baixar o conteúdo para assistir quando e onde quiser, os downloads não expiram.</div>
+            </div><!--wrapper-sobre-nos-->
+            <div class="wrapper-sobre-nos">
+                <div class="img tipo-2" style="background-image: url(img/professor.jpg); background-position: top;"></div>
+                <div class="sobre-nos-text tipo-1">Para assinantes possuímos a opção “converse com o mestre” onde disponibilizamos mentoria de profissionais de diversas áreas para que os usuários possam tirar suas dúvidas ou obter auxílio específico em determinadas disciplinas, inclusive com lives periódicas sendo realizadas por eles</div>
+            </div><!--wrapper-sobre-nos-->
+            <div class="wrapper-sobre-nos">
+                <div class="img tipo-1" style="background-image: url(img/acessibilidade.jpg);"></div>
+                <div class="sobre-nos-text tipo-2">(Acessibilidade) – Text-to-speech – Um conversor de texto para áudio que detecta automaticamente o idioma da página, basta selecionar o texto e clicar no ícone do auto falante para fazer uso da funcionalidade.</div>
+            </div><!--wrapper-sobre-nos-->
+            <div class="wrapper-sobre-nos">
+                <div class="img tipo-2" style="background-image: url(img/professorXaluno.jpg); background-position: top;"></div>
+                <div class="sobre-nos-text tipo-1">Você pode fazer parte do aplicativo, sendo aluno pode incluir material (sob análise) e sendo professor pode dar mentoria e incrementar a renda, uma porcentagem dos lucros por acesso do material é depositada na conta do app.</div>
+            </div><!--wrapper-sobre-nos-->
+        </div><!--center-->
+    </section><!--section-sobre-nos-->
+
+    <section id="section-assinatura">
+        <div class="chamada-assinatura">
+            <div class="center">
+                <div class="img-seta"></div>
+                <h2>CONHEÇA NOSSOS PLANOS</h2>
+            </div><!--center-->
+        </div><!--chamada-assinatura-->
+        <div class="center assinatura">
+            <div class="plano-assinatura">
+                <img src="img/gray.png" alt="">
+                <h2>AVALIAÇÃO - 15 DIAS</h2>
+                <h3>BENEFÍCIOS</h3>
+                <li><span class="possui">✔</span> Acesso aos conteúdos</li>
+                <li><span class="possui">✔</span> Acesso a data dos concursos</li>
+                <li><span class="nao-possui">X</span> Acesso a mentoria</li>
+                <li><span class="nao-possui">X</span> Pacote offline</li>
+                <div class="botao-adquirir" style="background-color: slategray;">Adquirir</div>
+                <p class="price">GRÁTIS</p>
+            </div><!--plano-assinatura-->
+            <div class="plano-assinatura">
+                <img src="img/green.png" alt="">
+                <h2>PLANO MENSAL</h2>
+                <h3>BENEFÍCIOS</h3>
+                <li><span class="possui">✔</span> Acesso aos conteúdos</li>
+                <li><span class="possui">✔</span> Acesso a concursos, apostilas e simulados</li>
+                <li><span class="possui">✔</span> Acesso a mentoria e lives</li>
+                <li><span class="possui">✔</span> Pacote offline</li>
+                <li><span class="nao-possui">X</span> Desconto 15%</li>
+                <div class="botao-adquirir" style="background-color: green;">Adquirir</div>
+                <p class="price">R$ 50,99</p>
+            </div><!--plano-assinatura-->
+            <div class="plano-assinatura">
+                <img src="img/red.png" alt="">
+                <h2>PLANO ANUAL</h2>
+                <h3>BENEFÍCIOS</h3>
+                <li><span class="possui">✔</span> Acesso aos conteúdos</li>
+                <li><span class="possui">✔</span> Acesso a concursos, apostilas e simulados</li>
+                <li><span class="possui">✔</span> Acesso a mentoria e lives</li>
+                <li><span class="possui">✔</span> Pacote offline</li>
+                <li><span class="possui">✔</span> Desconto 15%</li>
+                <div class="botao-adquirir" style="background-color: #B3170B;">Adquirir</div>
+                <p class="price">R$ 520,99</p>
+                <span style="text-decoration: line-through;">R$ 611,99</span><span class="off"> -15%</span>
+            </div><!--plano-assinatura-->
+            <div class="clear"></div><!--clear-->
+        </div><!--center-assinatura-->
+    </section><!--section-assinatura-->
+
+    <footer>
+        <div class="center">
+            <div class="wrapper-footer">
+                <h2>Contato</h2>
+                <li>E-mail: knowledgemotion@gmail.com</a></li>
+                <li>Endereço: Knowledge, 39</a></li>
+            </div><!--wrapper-footer-->
+            <div class="wrapper-footer">
+                <h2>Equipe</h2>
+                <li>Bruno Eduardo Dos Santos Rodrigues</li>
+                <li>Edimir De Jesus</li>
+                <li>Guilherme Cardoso Ferreira</li>
+                <li>Thiago Dias Barboza</li>
+            </div><!--wrapper-footer-->
+            <div class="wrapper-footer">
+                <h2>Informações</h2>
+                <li><a href="#">Politica de privacidade e Cookies</a></li>
+                <li><a href="#">Termos e Condições</a></li>
+            </div><!--wrapper-footer-->
+            <div class="clear"></div><!--clear-->
+        </div><!--center-->
+    </footer><!--footer-->
+    
+</body>
+</html>
+<script src="js/index.js"></script>
